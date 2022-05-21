@@ -1,7 +1,7 @@
 import React from 'react';
 import { IoIosArrowForward } from 'react-icons/io';
 
-const SectionOne = () => {
+const SectionFirst = () => {
   return (
     <section className="pt-24 pb-6 md:pb-12 px-6 flex flex-col items-center text-center">
       <h1 className="text-7xl text-center font-extrabold">
@@ -23,4 +23,4 @@ const SectionOne = () => {
   );
 };
 
-export default SectionOne;
+export default SectionFirst;
