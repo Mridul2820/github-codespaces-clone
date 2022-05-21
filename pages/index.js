@@ -1,7 +1,12 @@
 import React from 'react';
+import SectionOne from '../components/sections/SectionOne';
 
 const Home = () => {
-  return <div className="font-bold">App</div>;
+  return (
+    <main className="bg-gh-primary text-white">
+      <SectionOne />
+    </main>
+  );
 };
 
 export default Home;

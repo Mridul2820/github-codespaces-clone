@@ -5,7 +5,9 @@
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Alliance No.1",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-family: 'Alliance No.1', -apple-system, BlinkMacSystemFont, 'Segoe UI',
+    Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    'Segoe UI Symbol';
   word-break: keep-all;
 }
 
@@ -15,7 +17,7 @@ body {
   scrollbar-color: #333333 #d2c8ff;
 }
 
-*::-webkit-scrollbar {
+/* *::-webkit-scrollbar {
   width: 8px;
 }
 
@@ -25,4 +27,4 @@ body {
 
 *::-webkit-scrollbar-thumb {
   background-color: #333333;
-}
+} */

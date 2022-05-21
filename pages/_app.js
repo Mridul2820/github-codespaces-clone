@@ -1,3 +1,5 @@
+import Navbar from '../components/Navbar';
+
 import '../styles/globals.css';
 
 // SEO
@@ -8,6 +10,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <DefaultSeo {...SEO} />
+      <Navbar />
       <Component {...pageProps} />
     </>
   );
