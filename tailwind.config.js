@@ -61,6 +61,8 @@ module.exports = {
       'gh-primary': '#0d1117',
       'gh-secondary': '#8b949e',
       'gh-tertiary': '#24292f',
+      'gh-overlay': '#161b22',
+      'gh-muted': '#8b949e',
     },
     extend: {
       fontSize: {
@@ -73,6 +75,10 @@ module.exports = {
         bs4: 'rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset',
         bs5: 'rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px',
         bs5: 'rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px',
+      },
+      backgroundImage: {
+        'gh-gradient-1':
+          'linear-gradient(90.91deg, #79c0ff -24.67%, #d2a8ff 53.55%)',
       },
     },
   },

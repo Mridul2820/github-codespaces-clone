@@ -4,7 +4,7 @@ import SectionFirst from '../components/sections/SectionFirst';
 
 const Home = () => {
   return (
-    <main className="bg-gh-primary text-white">
+    <main className="bg-gh-primary text-white overflow-x-hidden">
       <SectionFirst />
       <SectionEditor />
     </main>

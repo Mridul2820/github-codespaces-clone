@@ -2,6 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .text-gradient-blue-purple {
+    @apply pr-1 pb-4 -mb-4;
+    background-clip: text !important;
+    background: linear-gradient(90.91deg, #79c0ff -24.67%, #d2a8ff 53.55%);
+    -webkit-text-fill-color: transparent;
+  }
+  .shadow-overlay-card {
+    @apply relative shadow-bs1 bg-gh-overlay rounded-md;
+  }
+
+  .shadow-overlay-card-after {
+    @apply absolute top-0 left-0 block h-full w-full pointer-events-none;
+    border-radius: inherit;
+    box-shadow: inset 0 1px 1px rgb(255 255 255 / 10%);
+  }
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -16,15 +34,3 @@ body {
   scrollbar-width: thin;
   scrollbar-color: #333333 #d2c8ff;
 }
-
-/* *::-webkit-scrollbar {
-  width: 8px;
-}
-
-*::-webkit-scrollbar-track {
-  background: #c8c8ff;
-}
-
-*::-webkit-scrollbar-thumb {
-  background-color: #333333;
-} */
