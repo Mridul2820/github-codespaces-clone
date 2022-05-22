@@ -137,6 +137,31 @@ const SectionEditor = () => {
           </div>
         </div>
       </div>
+      <div className="mt-6 relative flex justify-center items-start w-[130vw]">
+        <div className="max-w-md flex gap-4 justify-end mr-6 w-1/6 md:w-4/12">
+          <div className="h-[1px] pt-[20%] mb-4 w-1/4 shadow-overlay-card opacity-75 after:shadow-overlay-card-after" />
+          <div className="p-2 md:p-6 shadow-overlay-card after:shadow-overlay-card-after">
+            <Image
+              src="/assets/editor/illo-hero-vscode.png"
+              alt="cpu"
+              width={56}
+              height={56}
+              className="block"
+            />
+          </div>
+        </div>
+        <div className="max-w-md flex flex-col justify-start items-start ml-6 w-1/6 md:w-4/12">
+          <div className="p-2 md:p-6 shadow-overlay-card after:shadow-overlay-card-after w-7/12">
+            <Image
+              src="/assets/editor/illo-hero-ports.png"
+              alt="cpu"
+              width={232}
+              height={166}
+              className="block"
+            />
+          </div>
+        </div>
+      </div>
     </section>
   );
 };
