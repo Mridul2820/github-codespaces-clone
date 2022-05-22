@@ -11,9 +11,7 @@ const SectionFaster = ({ data }) => {
             <div className="mt-10 flex w-full">
               {data.stats?.map((stat, index) => (
                 <div key={index} className="w-1/3">
-                  <p className="text-gh-secondary">
-                    {stat.detail}
-                  </p>
+                  <p className="text-gh-secondary">{stat.detail}</p>
                   <p className="font-extrabold text-3xl">{stat.stat}</p>
                 </div>
               ))}

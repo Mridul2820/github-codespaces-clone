@@ -13,7 +13,7 @@
     -webkit-text-fill-color: transparent;
   }
   .shadow-overlay-card {
-    @apply relative shadow-bs1 bg-gh-overlay rounded-md select-none;
+    @apply relative shadow-bs-card bg-gh-overlay rounded-md select-none;
   }
 
   .shadow-overlay-card-after {

@@ -71,7 +71,7 @@ const SectionEditor = () => {
             alt="Section Editor"
             width={984}
             height={624}
-            className="relative rounded-md shadow-bs1 z-50 after:shadow-overlay-card-after"
+            className="relative rounded-md shadow-bs-card z-50 after:shadow-overlay-card-after"
           />
           <img
             src="/assets/editor/glow.png"

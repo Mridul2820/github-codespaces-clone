@@ -33,7 +33,8 @@ export default function handler(req, res) {
     },
     sectionEnv: {
       title: 'Standardized dev <br/> environments',
-      description: 'Join a new team and just start coding. Standardize environments, runtime requirements, hardware specs, extensions and editor settings in <span style="color:#fff;">.devcontainer.json</span> configuration files. Isolate dependencies between projects with containers and docker-compose.'
-    }
+      description:
+        'Join a new team and just start coding. Standardize environments, runtime requirements, hardware specs, extensions and editor settings in <span style="color:#fff;">.devcontainer.json</span> configuration files. Isolate dependencies between projects with containers and docker-compose.',
+    },
   });
 }
