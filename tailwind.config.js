@@ -63,6 +63,7 @@ module.exports = {
       'gh-tertiary': '#24292f',
       'gh-overlay': '#161b22',
       'gh-muted': '#8b949e',
+      'gh-link': '#58a6ff',
     },
     extend: {
       fontSize: {
