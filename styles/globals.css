@@ -10,13 +10,20 @@
     -webkit-text-fill-color: transparent;
   }
   .shadow-overlay-card {
-    @apply relative shadow-bs1 bg-gh-overlay rounded-md;
+    @apply relative shadow-bs1 bg-gh-overlay rounded-md select-none;
   }
 
   .shadow-overlay-card-after {
     @apply absolute top-0 left-0 block h-full w-full pointer-events-none;
     border-radius: inherit;
     box-shadow: inset 0 1px 1px rgb(255 255 255 / 10%);
+  }
+
+  .bg-gradient {
+    width: 100%;
+    left: 0%;
+    top: -13%;
+    transform: scale(1.7);
   }
 }
 

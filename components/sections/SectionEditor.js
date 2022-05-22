@@ -73,16 +73,14 @@ const SectionEditor = () => {
             alt="Section Editor"
             width={984}
             height={624}
-            className="relative rounded-md shadow-bs1 z-20"
-            objectFit="cover"
+            className="relative rounded-md shadow-bs1 z-50 after:shadow-overlay-card-after"
           />
           <img
             src="/assets/editor/glow.png"
             alt=""
-            className="absolute h-auto pointer-events-none"
+            className="absolute bg-gradient h-auto pointer-events-none z-10"
             width="30"
             height="22"
-            style={{ width: '180%', left: '-40%', top: '-60%' }}
           />
         </div>
         <div className="max-w-md flex flex-col justify-start items-start ml-6 w-1/6 md:w-4/12">
