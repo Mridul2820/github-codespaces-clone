@@ -1,21 +1,17 @@
 import React from 'react';
 import Image from 'next/image';
 
-const SectionPower = () => {
+const SectionPower = ({ data }) => {
   return (
     <div className="mt-16 mx-auto max-w-7xl">
       <div className="-mx-6 pb-12 flex items-center">
         <div className="px-6 py-4 w-1/2">
           <div className="pr-5">
-            <h3 className="mb-4 text-5xl font-extrabold ">
-              The full power of Visual&nbsp;Studio Code
-            </h3>
-            <p className="text-gh-secondary text-xl mb-5">
-              Use the full power of Visual Studio Code, including the editor,
-              terminal, debugger, version control, settings sync, and the entire
-              ecosystem of extensions. Work in the browser or hand off to your
-              desktop.
-            </p>
+            <h3
+              className="mb-4 text-5xl font-extrabold"
+              dangerouslySetInnerHTML={{ __html: data.title }}
+            />
+            <p className="text-gh-secondary text-xl mb-5">{data.description}</p>
             <Image
               src="/assets/power/logos.png"
               alt="cpu"

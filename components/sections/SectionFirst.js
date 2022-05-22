@@ -1,16 +1,14 @@
 import React from 'react';
 import { IoIosArrowForward } from 'react-icons/io';
 
-const SectionFirst = () => {
+const SectionFirst = ({ data }) => {
   return (
     <div className="pt-24 pb-6 md:pb-12 px-6 flex flex-col items-center text-center">
-      <h1 className="text-7xl text-center font-extrabold">
-        Blazing fast cloud <br />
-        developer environments
-      </h1>
-      <p className="text-gh-secondary text-xl mt-5">
-        Visual Studio Code backed by high performance VMs that start in seconds.
-      </p>
+      <h1
+        className="text-7xl text-center font-extrabold"
+        dangerouslySetInnerHTML={{ __html: data.title }}
+      />
+      <p className="text-gh-secondary text-xl mt-5">{data.description}</p>
       <div className="mt-6 md:mt-10 mb-6">
         <a
           href="#"
