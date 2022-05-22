@@ -5,8 +5,10 @@ import SectionFirst from '../components/sections/SectionFirst';
 const Home = () => {
   return (
     <main className="bg-gh-primary text-white overflow-x-hidden">
-      <SectionFirst />
-      <SectionEditor />
+      <section className="pb-16">
+        <SectionFirst />
+        <SectionEditor />
+      </section>
     </main>
   );
 };

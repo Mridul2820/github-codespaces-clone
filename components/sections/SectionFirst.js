@@ -3,7 +3,7 @@ import { IoIosArrowForward } from 'react-icons/io';
 
 const SectionFirst = () => {
   return (
-    <section className="pt-24 pb-6 md:pb-12 px-6 flex flex-col items-center text-center">
+    <div className="pt-24 pb-6 md:pb-12 px-6 flex flex-col items-center text-center">
       <h1 className="text-7xl text-center font-extrabold">
         Blazing fast cloud <br />
         developer environments
@@ -19,7 +19,7 @@ const SectionFirst = () => {
           Get started <IoIosArrowForward className="-mb-[3px]" />
         </a>
       </div>
-    </section>
+    </div>
   );
 };
 

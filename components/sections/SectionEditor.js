@@ -4,14 +4,12 @@ import React, { useState } from 'react';
 const SectionEditor = () => {
   const [type, setType] = useState(true);
 
-  console.log(type);
-
   return (
-    <section className=" flex justify-center items-center flex-col">
+    <div className=" flex justify-center items-center flex-col">
       <div className="form-check px-5 my-6 form-switch flex justify-center items-center gap-2">
         <label
           className="form-check-label inline-block text-white font-semibold text-xl"
-          for="flexSwitchCheckDefault"
+          htmlFor="flexSwitchCheckDefault"
         >
           Desktop
         </label>
@@ -25,7 +23,7 @@ const SectionEditor = () => {
         />
         <label
           className="form-check-label inline-block text-white font-semibold text-xl"
-          for="flexSwitchCheckDefault"
+          htmlFor="flexSwitchCheckDefault"
         >
           Browser
         </label>
@@ -212,7 +210,7 @@ const SectionEditor = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
