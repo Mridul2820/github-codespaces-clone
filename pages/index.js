@@ -1,6 +1,7 @@
 import React from 'react';
 import SectionEditor from '../components/sections/SectionEditor';
 import SectionFirst from '../components/sections/SectionFirst';
+import SectionPower from '../components/sections/SectionPower';
 
 const Home = () => {
   return (
@@ -8,6 +9,9 @@ const Home = () => {
       <section className="pb-16">
         <SectionFirst />
         <SectionEditor />
+      </section>
+      <section className="px-4">
+        <SectionPower />
       </section>
     </main>
   );
