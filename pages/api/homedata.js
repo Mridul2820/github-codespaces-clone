@@ -36,5 +36,11 @@ export default function handler(req, res) {
       description:
         'Join a new team and just start coding. Standardize environments, runtime requirements, hardware specs, extensions and editor settings in <span style="color:#fff;">.devcontainer.json</span> configuration files. Isolate dependencies between projects with containers and docker-compose.',
     },
+    sectionPreview: {
+      title: 'Browser preview and <br/> port forwarding',
+
+      description:
+        'Preview your changes in the browser with instant reloads (websocket and HMR support) and share private and public ports with your teammates.',
+    },
   });
 }

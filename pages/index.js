@@ -5,6 +5,7 @@ import SectionEnv from '../components/sections/SectionEnv';
 import SectionFaster from '../components/sections/SectionFaster';
 import SectionFirst from '../components/sections/SectionFirst';
 import SectionPower from '../components/sections/SectionPower';
+import SectionPreview from '../components/sections/SectionPreview';
 
 const Home = ({ data }) => {
   console.log(data);
@@ -18,6 +19,7 @@ const Home = ({ data }) => {
         <SectionPower data={data.sectionPower} />
         <SectionFaster data={data.sectionFaster} />
         <SectionEnv data={data.sectionEnv} />
+        <SectionPreview data={data.sectionPreview} />
       </section>
     </main>
   );
