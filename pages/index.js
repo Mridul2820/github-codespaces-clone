@@ -1,5 +1,6 @@
 import React from 'react';
 import SectionEditor from '../components/sections/SectionEditor';
+import SectionFaster from '../components/sections/SectionFaster';
 import SectionFirst from '../components/sections/SectionFirst';
 import SectionPower from '../components/sections/SectionPower';
 
@@ -12,6 +13,7 @@ const Home = () => {
       </section>
       <section className="px-4">
         <SectionPower />
+        <SectionFaster />
       </section>
     </main>
   );

@@ -28,6 +28,12 @@
     top: -13%;
     transform: scale(1.7);
   }
+
+  .minus-margin {
+    margin-right: -15%;
+    margin-left: -15%;
+    margin-top: -15%;
+  }
 }
 
 body {
