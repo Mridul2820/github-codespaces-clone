@@ -105,133 +105,126 @@ export default function handler(req, res) {
     footer: {
       footerTop: {
         linkRows: [
-          [
-            {
-              text: 'Product',
-              href: '/',
-            },
-            {
-              text: 'Features',
-              href: '/',
-            },
-            {
-              text: 'Security',
-              href: '/',
-            },
-            {
-              text: 'Team',
-              href: '/',
-            },
-            {
-              text: 'Enterprise',
-              href: '/',
-            },
-            {
-              text: 'Customer stories',
-              href: '/',
-            },
-            {
-              text: 'The ReadME Project',
-              href: '/',
-            },
-            {
-              text: 'Pricing',
-              href: '/',
-            },
-            {
-              text: 'Resources',
-              href: '/',
-            },
-            {
-              text: 'Roadmap',
-              href: '/',
-            },
-          ],
-
-          [
-            {
-              text: 'Platform',
-              href: '/',
-            },
-            {
-              text: 'Developer API',
-              href: '/',
-            },
-            {
-              text: 'Atom',
-              href: '/',
-            },
-            {
-              text: 'Electron',
-              href: '/',
-            },
-            {
-              text: 'GitHub Desktop',
-              href: '/',
-            },
-          ],
-
-          [
-            {
-              text: 'Support',
-              href: '/',
-            },
-            {
-              text: 'Docs',
-              href: '/',
-            },
-            {
-              text: 'Community Forum',
-              href: '/',
-            },
-            {
-              text: 'Professional Services',
-              href: '/',
-            },
-            {
-              text: 'Status',
-              href: '/',
-            },
-            {
-              text: 'Contact GitHub',
-              href: '/',
-            },
-          ],
-
-          [
-            {
-              text: 'Company',
-              href: '/',
-            },
-            {
-              text: 'About',
-              href: '/',
-            },
-            {
-              text: 'Blog',
-              href: '/',
-            },
-            {
-              text: 'Careers',
-              href: '/',
-            },
-            {
-              text: 'Press',
-              href: '/',
-            },
-            {
-              text: 'Inclusion',
-              href: '/',
-            },
-            {
-              text: 'Social Impact',
-              href: '/',
-            },
-            {
-              text: 'Shop',
-              href: '/',
-            },
-          ],
+          {
+            title: 'Product',
+            links: [
+              {
+                text: 'Features',
+                href: '/',
+              },
+              {
+                text: 'Security',
+                href: '/',
+              },
+              {
+                text: 'Team',
+                href: '/',
+              },
+              {
+                text: 'Enterprise',
+                href: '/',
+              },
+              {
+                text: 'Customer stories',
+                href: '/',
+              },
+              {
+                text: 'The ReadME Project',
+                href: '/',
+              },
+              {
+                text: 'Pricing',
+                href: '/',
+              },
+              {
+                text: 'Resources',
+                href: '/',
+              },
+              {
+                text: 'Roadmap',
+                href: '/',
+              },
+            ],
+          },
+          {
+            title: 'Platform',
+            links: [
+              {
+                text: 'Developer API',
+                href: '/',
+              },
+              {
+                text: 'Atom',
+                href: '/',
+              },
+              {
+                text: 'Electron',
+                href: '/',
+              },
+              {
+                text: 'GitHub Desktop',
+                href: '/',
+              },
+            ],
+          },
+          {
+            title: 'Support',
+            links: [
+              {
+                text: 'Docs',
+                href: '/',
+              },
+              {
+                text: 'Community Forum',
+                href: '/',
+              },
+              {
+                text: 'Professional Services',
+                href: '/',
+              },
+              {
+                text: 'Status',
+                href: '/',
+              },
+              {
+                text: 'Contact GitHub',
+                href: '/',
+              },
+            ],
+          },
+          {
+            title: 'Company',
+            links: [
+              {
+                text: 'About',
+                href: '/',
+              },
+              {
+                text: 'Blog',
+                href: '/',
+              },
+              {
+                text: 'Careers',
+                href: '/',
+              },
+              {
+                text: 'Press',
+                href: '/',
+              },
+              {
+                text: 'Inclusion',
+                href: '/',
+              },
+              {
+                text: 'Social Impact',
+                href: '/',
+              },
+              {
+                text: 'Shop',
+                href: '/',
+              },
+            ],
+          },
         ],
       },
       footerBottom: {

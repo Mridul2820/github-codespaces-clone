@@ -9,7 +9,7 @@ import { FaLinkedinIn } from 'react-icons/fa';
 
 const FooterBottom = ({ links }) => {
   return (
-    <footer className="bg-gh-overlay">
+    <div className="bg-gh-overlay">
       <div className="max-w-7xl mx-auto flex items-center justify-between py-6 px-4">
         <div className="flex items-center gap-4 text-xs">
           <p className="text-gh-secondary">© 2024 GitHub, Inc.</p>
@@ -41,7 +41,7 @@ const FooterBottom = ({ links }) => {
           </a>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 

@@ -8,7 +8,6 @@ import SectionPower from '../components/sections/SectionPower';
 import SectionPreview from '../components/sections/SectionPreview';
 
 const Home = ({ data }) => {
-  console.log(data);
   return (
     <main className="bg-gh-primary text-white overflow-x-hidden">
       <section className="pb-16">
