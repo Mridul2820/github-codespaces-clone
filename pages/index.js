@@ -8,6 +8,7 @@ import SectionFirst from '../components/sections/SectionFirst';
 import SectionPower from '../components/sections/SectionPower';
 import SectionPreview from '../components/sections/SectionPreview';
 import SectionFaq from '../components/sections/SectionFaq';
+import SectionPrice from '../components/sections/SectionPrice';
 
 const Home = ({ data }) => {
   return (
@@ -22,7 +23,9 @@ const Home = ({ data }) => {
         <SectionEnv data={data.sectionEnv} />
         <SectionPreview data={data.sectionPreview} />
       </section>
-      <section></section>
+      <section>
+        <SectionPrice data={data.sectionPrice} />
+      </section>
       <section>
         <SectionFaq data={data.sectionFaq} />
       </section>

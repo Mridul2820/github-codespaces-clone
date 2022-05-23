@@ -42,6 +42,51 @@ export default function handler(req, res) {
       description:
         'Preview your changes in the browser with instant reloads (websocket and HMR support) and share private and public ports with your teammates.',
     },
+    sectionPrice: {
+      title: 'Pay as you go',
+      dataleft: {
+        title:
+          'Available today for GitHub Teams and <br/> GitHub Enterprise Cloud customers',
+        url: '/',
+        logoImg:
+          'https://github.githubassets.com/images/modules/site/codespaces/codespaces-logo.svg',
+      },
+      dataright: {
+        title: 'Codespaces Compute',
+        subTitle: 'Isolated VMs billed per second',
+        prices: [
+          {
+            core: '2 core',
+            ram: '4GB',
+            price: '$.18',
+          },
+          {
+            core: '4 core',
+            ram: '8GB',
+            price: '$.36',
+          },
+          {
+            core: '8 core',
+            ram: '16GB',
+            price: '$.72',
+          },
+          {
+            core: '16 core',
+            ram: '32GB',
+            price: '$1.44',
+          },
+          {
+            core: '32 core',
+            ram: '64GB',
+            price: '$2.88',
+          },
+        ],
+        inactivePrice: {
+          price: '$0.07',
+          detail: 'per gigabyte per month',
+        },
+      },
+    },
     sectionFaq: {
       title: 'Frequently asked questions',
       faqs: [
