@@ -2,7 +2,6 @@ import React from 'react';
 import FAQ from '../items/FAQ';
 
 const SectionFaq = ({ data }) => {
-  console.log(data.faqs);
   return (
     <div className="my-16 pb-16 mx-auto max-w-7xl h-auto">
       <div className="w-2/3 mx-auto">
