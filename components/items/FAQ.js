@@ -9,7 +9,7 @@ const FAQ = ({ faq }) => {
   };
 
   return (
-    <div className="border-b-[1px] border-b-gh-border">
+    <div className="gh-border-bottom">
       <div className="flex gap-8 items-center p-6">
         <div className="w-5">
           <AiOutlineMinus

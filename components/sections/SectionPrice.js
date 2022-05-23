@@ -12,22 +12,25 @@ const SectionPrice = ({ data }) => {
           dangerouslySetInnerHTML={{ __html: data.title }}
         />
         <div className="px-6 py-4">
-          <div className="flex items-center rounded-md overflow-hidden shadow-overlay-card">
+          <div className="flex rounded-md overflow-hidden shadow-overlay-card">
             <div
-              className="flex flex-col justify-center items-center w-1/3 p-6 "
+              className="flex flex-col justify-center items-center p-6 w-1/3 bg-cover"
               style={{
                 backgroundImage:
                   'url(https://github.githubassets.com/images/modules/site/codespaces/blurple-pricing.jpg',
-                backgroundSize: 'cover',
               }}
             >
-              <img src={data.dataleft.logoImg} alt="logo" />
+              <img
+                src={data.dataleft.logoImg}
+                alt="logo"
+                className="w-[72px] mx-auto"
+              />
               <span
                 className="text-xl text-centerpy-4 font-bold my-6"
                 dangerouslySetInnerHTML={{ __html: data.dataleft.title }}
               />
               <Link href={data.dataleft.url}>
-                <a className="flex justify-center items-center px-7 py-5 w-full bg-white mx-8 mb-5 text-gh-primary rounded-lg font-bold gap-1">
+                <a className="flex justify-center items-center px-7 py-5 w-full bg-white mb-5 text-gh-primary rounded-lg font-bold gap-1">
                   Get started <IoIosArrowForward className="-mb-[3px]" />
                 </a>
               </Link>
@@ -42,6 +45,37 @@ const SectionPrice = ({ data }) => {
                     {data.dataright.subTitle}
                   </span>
                 </div>
+
+                <table class="w-full font-medium leading-5">
+                  <thead>
+                    <tr class="gh-border-bottom">
+                      <th class="w-1/3 py-4 mb-3 text-gh-secondary font-medium text-left">
+                        Cores
+                      </th>
+                      <th class="w-1/3 py-4 mb-3 text-gh-secondary font-medium text-left">
+                        RAM
+                      </th>
+                      <th class="w-1/3 py-4 mb-3 text-gh-secondary font-medium text-left">
+                        Price
+                      </th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    {data.dataright.prices.map((item, index) => (
+                      <tr class="gh-border-bottom mb-4 align-top" key={index}>
+                        <td class="py-4 text-white">{item.core}</td>
+                        <td class="py-4 text-white">{item.ram}</td>
+                        <td class="py-4 text-white">
+                          {item.price}
+                          <span class="block text-xs font-normal text-gh-secondary">
+                            per hour
+                          </span>
+                        </td>
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
               </div>
               <div className="px-10 py-6 flex items-center">
                 <div className="w-2/3">

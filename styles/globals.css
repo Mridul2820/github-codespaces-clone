@@ -42,6 +42,10 @@
   .rich-text a {
     @apply text-gh-link hover:underline cursor-pointer;
   }
+
+  .gh-border-bottom {
+    border-bottom: 1px solid #30363d;
+  }
 }
 
 body {
