@@ -29,25 +29,25 @@ const FooterBottom = ({ links }) => {
             </a>
           </Link>
           <Link href="/">
-            <a href="/">
+            <a>
               <AiFillFacebook size={24} />
             </a>
           </Link>
 
           <Link href="/">
-            <a href="/">
+            <a>
               <AiFillYoutube size={24} />
             </a>
           </Link>
 
           <Link href="/">
-            <a href="/">
+            <a>
               <FaLinkedinIn size={24} />
             </a>
           </Link>
 
           <Link href="/">
-            <a href="/">
+            <a>
               <AiFillGithub size={24} />
             </a>
           </Link>
