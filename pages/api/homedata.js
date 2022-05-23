@@ -44,11 +44,12 @@ export default function handler(req, res) {
     },
     sectionReview: {
       title: 'GitHub builds <br/> with Codespaces',
-      description: 'Learn how GitHub builds GitHub with Codespaces',
+      urlText: 'Learn how GitHub builds GitHub with Codespaces',
+      url: '/',
       reviews: [
         {
           review:
-            'Unreal—Codespaces had me running a server in minutes, and that never happens as a new hire. What an awesome first week!',
+            'Unreal—Codespaces had me <br/> running a server in minutes, and that <br/> never happens as a new hire. <br/> What an awesome first week!',
           reviewer: 'Chris Westra',
           reviewerImage:
             'https://github.githubassets.com/images/modules/site/codespaces/chris.jpg',
@@ -56,7 +57,7 @@ export default function handler(req, res) {
         },
         {
           review:
-            'Day 2 of Codespaces: Shipped a pull request and started working on another one without waiting for script/bootstrap.',
+            'Day 2 of Codespaces: Shipped a pull <br/> request and started working on <br/> another one without waiting for <br/> script/bootstrap.',
           reviewer: 'Yumin Wong',
           reviewerImage:
             'https://github.githubassets.com/images/modules/site/codespaces/yumin.jpg',
