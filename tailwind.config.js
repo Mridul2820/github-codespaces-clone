@@ -64,6 +64,7 @@ module.exports = {
       'gh-overlay': '#161b22',
       'gh-muted': '#8b949e',
       'gh-link': '#58a6ff',
+      'gh-border': '#30363d',
     },
     extend: {
       fontSize: {

@@ -6,7 +6,7 @@ const SectionFaster = ({ data }) => {
       <div className="-mx-6 flex items-center">
         <div className="px-6 py-4 w-1/2 -mt-[7%]">
           <div className="pr-5">
-            <h3 className="mb-4 text-5xl font-extrabold ">{data.title}</h3>
+            <h3 className="mb-4 text-5xl font-extrabold">{data.title}</h3>
             <p className="text-gh-secondary text-xl mb-5">{data.description}</p>
             <div className="mt-10 flex w-full">
               {data.stats?.map((stat, index) => (

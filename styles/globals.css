@@ -38,6 +38,10 @@
   .revert-filter {
     filter: brightness(0) invert(1);
   }
+
+  .rich-text a {
+    @apply text-gh-link hover:underline cursor-pointer;
+  }
 }
 
 body {
