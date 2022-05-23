@@ -23,21 +23,34 @@ const FooterBottom = ({ links }) => {
           ))}
         </div>
         <div className="flex items-center gap-3 text-gh-secondary">
-          <a href="/">
-            <AiOutlineTwitter size={24} />
-          </a>
-          <a href="/">
-            <AiFillFacebook size={24} />
-          </a>
-          <a href="/">
-            <AiFillYoutube size={24} />
-          </a>
-          <a href="/">
-            <FaLinkedinIn size={24} />
-          </a>
-          <a href="/">
-            <AiFillGithub size={24} />
-          </a>
+          <Link href="/">
+            <a>
+              <AiOutlineTwitter size={24} />
+            </a>
+          </Link>
+          <Link href="/">
+            <a href="/">
+              <AiFillFacebook size={24} />
+            </a>
+          </Link>
+
+          <Link href="/">
+            <a href="/">
+              <AiFillYoutube size={24} />
+            </a>
+          </Link>
+
+          <Link href="/">
+            <a href="/">
+              <FaLinkedinIn size={24} />
+            </a>
+          </Link>
+
+          <Link href="/">
+            <a href="/">
+              <AiFillGithub size={24} />
+            </a>
+          </Link>
         </div>
       </div>
     </div>

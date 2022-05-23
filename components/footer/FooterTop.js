@@ -2,7 +2,6 @@ import React from 'react';
 import Link from 'next/link';
 
 const FooterTop = ({ rows }) => {
-  console.log(rows);
   return (
     <div className="bg-gh-primary pt-10">
       <div className="max-w-7xl mx-auto flex gap-6 pb-16 mt-8 text-sm">
