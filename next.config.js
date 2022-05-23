@@ -8,16 +8,18 @@ module.exports = {
   publicRuntimeConfig: {},
   images: {
     formats: ['image/avif', 'image/webp'],
-    domains: [
-      'localhost',
-      'res.cloudinary.com',
-      'inneedstore.com',
-      'i0.wp.com',
-      'images.pexels.com',
-    ],
+    domains: ['localhost', 'res.cloudinary.com'],
+  },
+  exportPathMap: function () {
+    return {
+      '/locales/de-DE/summer-dress-f': {
+        page: '/locales/[locale]/[slug]',
+        query: { locale: 'de-DE', slug: 'summer-dress-f' },
+      },
+    };
   },
 
-  webpack: (config, { isServer }) => {
+  webpack: (config) => {
     config.resolve.alias['components'] = path.join(__dirname, 'components');
     config.resolve.alias['public'] = path.join(__dirname, 'public');
 
