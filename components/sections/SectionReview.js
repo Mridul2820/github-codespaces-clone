@@ -12,11 +12,14 @@ const SectionReview = ({ data }) => {
           className="pb-4 px-4 mx-auto mb-2 text-6xl font-extrabold text-center"
           dangerouslySetInnerHTML={{ __html: data.title }}
         />
-        <Link href={data.url}>
-          <a className="flex text-xl justify-center items-center mb-8 text-white font-bold gap-1">
-            {data.urlText} <IoIosArrowForward className="-mb-[3px]" />
-          </a>
-        </Link>
+        <div className="flex justify-center">
+          <Link href={data.url}>
+            <a className="inline-flex text-xl items-center mb-8 text-white font-bold gap-1 slide-border-bottom relative pb-2">
+              {data.urlText} <IoIosArrowForward className="-mb-[5px]" />
+            </a>
+          </Link>
+        </div>
+
         <div className="flex gap-8">
           {data.reviews.map((review, index) => (
             <div className="w-1/2 p-8 shadow-overlay-card" key={index}>

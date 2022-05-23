@@ -19,7 +19,7 @@ const FooterTop = ({ rows }) => {
           <p className="mb-4 font-light">
             Get product updates, company news, and more.
           </p>
-          <button className="px-5 py-3 rounded-md border-2 border-slate-500 hover:border-slate-700 font-bold">
+          <button className="px-5 py-3 rounded-md border-2 border-slate-600 hover:border-slate-300 font-bold">
             Subscribe
           </button>
         </div>

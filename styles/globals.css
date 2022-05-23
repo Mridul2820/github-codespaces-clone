@@ -50,6 +50,17 @@
   .get-started-button {
     @apply flex justify-center items-center px-7 py-5 bg-white mb-5 text-gh-primary rounded-lg font-bold gap-1;
   }
+
+  .slide-border-bottom::after {
+    @apply absolute bottom-0 w-0 bg-white;
+    content: '';
+    height: 3px;
+    transition: all 0.5s ease 0s;
+  }
+
+  .slide-border-bottom:hover::after {
+    @apply w-full;
+  }
 }
 
 body {
