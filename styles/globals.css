@@ -46,6 +46,10 @@
   .gh-border-bottom {
     border-bottom: 1px solid #30363d;
   }
+
+  .get-started-button {
+    @apply flex justify-center items-center px-7 py-5 bg-white mb-5 text-gh-primary rounded-lg font-bold gap-1;
+  }
 }
 
 body {

@@ -12,7 +12,7 @@ const SectionFirst = ({ data }) => {
       <div className="mt-6 md:mt-10 mb-6">
         <a
           href="#"
-          className="flex justify-center items-center px-7 py-5 bg-white text-gh-primary rounded-lg font-bold gap-1"
+          className="get-started-button"
         >
           Get started <IoIosArrowForward className="-mb-[3px]" />
         </a>

@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { IoIosArrowForward } from 'react-icons/io';
 
 const SectionPrice = ({ data }) => {
-  console.log(data);
   return (
     <div className="mt-16 mx-auto max-w-7xl pb-12">
       <div className="-mx-6">
@@ -30,7 +29,7 @@ const SectionPrice = ({ data }) => {
                 dangerouslySetInnerHTML={{ __html: data.dataleft.title }}
               />
               <Link href={data.dataleft.url}>
-                <a className="flex justify-center items-center px-7 py-5 w-full bg-white mb-5 text-gh-primary rounded-lg font-bold gap-1">
+                <a className="get-started-button w-full">
                   Get started <IoIosArrowForward className="-mb-[3px]" />
                 </a>
               </Link>
