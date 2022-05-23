@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link';
 
 const FooterTop = ({ rows }) => {
   console.log(rows);
@@ -28,12 +29,11 @@ const FooterTop = ({ rows }) => {
             <li className="text-gh-secondary">{row.title}</li>
             {row?.links.map((link, index) => (
               <li key={index}>
-                <a
-                  href={link.href}
-                  className="text-gh-secondary hover:text-gh-link hover:underline"
-                >
-                  {link.text}
-                </a>
+                <Link href={link.href}>
+                  <a className="text-gh-secondary hover:text-gh-link hover:underline">
+                    {link.text}
+                  </a>
+                </Link>
               </li>
             ))}
           </ul>

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 import {
   AiOutlineTwitter,
@@ -14,13 +15,11 @@ const FooterBottom = ({ links }) => {
         <div className="flex items-center gap-4 text-xs">
           <p className="text-gh-secondary">© 2024 GitHub, Inc.</p>
           {links?.map((link, index) => (
-            <a
-              key={index}
-              href={link.href}
-              className="text-gh-secondary hover:text-gh-link hover:underline"
-            >
-              {link.text}
-            </a>
+            <Link key={index} href={link.href}>
+              <a className="text-gh-secondary hover:text-gh-link hover:underline">
+                {link.text}
+              </a>
+            </Link>
           ))}
         </div>
         <div className="flex items-center gap-3 text-gh-secondary">
