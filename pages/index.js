@@ -10,6 +10,7 @@ import SectionPreview from '../components/sections/SectionPreview';
 import SectionFaq from '../components/sections/SectionFaq';
 import SectionPrice from '../components/sections/SectionPrice';
 import SectionReview from '../components/sections/SectionReview';
+import SectionMoreDetail from '../components/sections/SectionMoreDetail';
 
 const Home = ({ data }) => {
   return (
@@ -23,6 +24,9 @@ const Home = ({ data }) => {
         <SectionFaster data={data.sectionFaster} />
         <SectionEnv data={data.sectionEnv} />
         <SectionPreview data={data.sectionPreview} />
+      </section>
+      <section>
+        <SectionMoreDetail data={data.sectionMoreDetail} />
       </section>
       <section>
         <SectionReview data={data.sectionReview} />

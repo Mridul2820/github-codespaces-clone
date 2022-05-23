@@ -42,6 +42,12 @@ export default function handler(req, res) {
       description:
         'Preview your changes in the browser with instant reloads (websocket and HMR support) and share private and public ports with your teammates.',
     },
+    sectionMoreDetail: {
+      title:
+        'Tabs, spaces, Monokai, Solarized, <br/> light, dark, Prettier, Beautify…',
+      description:
+        'Every nerdy detail only you care about, configured just right, backed by your <br/> own dotfiles repository.',
+    },
     sectionReview: {
       title: 'GitHub builds <br/> with Codespaces',
       urlText: 'Learn how GitHub builds GitHub with Codespaces',
