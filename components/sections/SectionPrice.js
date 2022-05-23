@@ -45,16 +45,16 @@ const SectionPrice = ({ data }) => {
                   </span>
                 </div>
 
-                <table class="w-full font-medium leading-5">
+                <table className="w-full font-medium leading-5">
                   <thead>
-                    <tr class="gh-border-bottom">
-                      <th class="w-1/3 py-4 mb-3 text-gh-secondary font-medium text-left">
+                    <tr className="gh-border-bottom">
+                      <th className="w-1/3 py-4 mb-3 text-gh-secondary font-medium text-left">
                         Cores
                       </th>
-                      <th class="w-1/3 py-4 mb-3 text-gh-secondary font-medium text-left">
+                      <th className="w-1/3 py-4 mb-3 text-gh-secondary font-medium text-left">
                         RAM
                       </th>
-                      <th class="w-1/3 py-4 mb-3 text-gh-secondary font-medium text-left">
+                      <th className="w-1/3 py-4 mb-3 text-gh-secondary font-medium text-left">
                         Price
                       </th>
                     </tr>
@@ -62,12 +62,12 @@ const SectionPrice = ({ data }) => {
 
                   <tbody>
                     {data.dataright.prices.map((item, index) => (
-                      <tr class="gh-border-bottom mb-4 align-top" key={index}>
-                        <td class="py-4 text-white">{item.core}</td>
-                        <td class="py-4 text-white">{item.ram}</td>
-                        <td class="py-4 text-white">
+                      <tr className="gh-border-bottom mb-4 align-top" key={index}>
+                        <td className="py-4 text-white">{item.core}</td>
+                        <td className="py-4 text-white">{item.ram}</td>
+                        <td className="py-4 text-white">
                           {item.price}
-                          <span class="block text-xs font-normal text-gh-secondary">
+                          <span className="block text-xs font-normal text-gh-secondary">
                             per hour
                           </span>
                         </td>
