@@ -4,7 +4,7 @@ import Link from 'next/link';
 const FooterTop = ({ rows }) => {
   return (
     <div className="bg-gh-primary pt-10">
-      <div className="max-w-7xl mx-auto flex gap-6 pb-16 mt-8 text-sm">
+      <div className="max-w-7xl mx-auto flex gap-6 pb-16 mt-8 text-sm px-4">
         <div className="w-1/3 text-gh-secondary">
           <img
             src="https://github.githubassets.com/images/modules/site/icons/footer/github-logo.svg"
@@ -15,7 +15,7 @@ const FooterTop = ({ rows }) => {
             alt="GitHub"
             className="revert-filter"
           />
-          <h5 className="mt-4 font-bold">Subscribe to our newsletter</h5>
+          <h5 className="mt-6 font-bold">Subscribe to our newsletter</h5>
           <p className="mb-4 font-light">
             Get product updates, company news, and more.
           </p>

@@ -42,6 +42,28 @@ export default function handler(req, res) {
       description:
         'Preview your changes in the browser with instant reloads (websocket and HMR support) and share private and public ports with your teammates.',
     },
+    sectionReview: {
+      title: 'GitHub builds <br/> with Codespaces',
+      description: 'Learn how GitHub builds GitHub with Codespaces',
+      reviews: [
+        {
+          review:
+            'Unreal—Codespaces had me running a server in minutes, and that never happens as a new hire. What an awesome first week!',
+          reviewer: 'Chris Westra',
+          reviewerImage:
+            'https://github.githubassets.com/images/modules/site/codespaces/chris.jpg',
+          reviewerTitle: 'Senior Software Engineer',
+        },
+        {
+          review:
+            'Day 2 of Codespaces: Shipped a pull request and started working on another one without waiting for script/bootstrap.',
+          reviewer: 'Yumin Wong',
+          reviewerImage:
+            'https://github.githubassets.com/images/modules/site/codespaces/yumin.jpg',
+          reviewerTitle: 'Staff Software Engineer',
+        },
+      ],
+    },
     sectionPrice: {
       title: 'Pay as you go',
       dataleft: {
