@@ -34,6 +34,10 @@
     margin-left: -15%;
     margin-top: -15%;
   }
+
+  .revert-filter {
+    filter: brightness(0) invert(1);
+  }
 }
 
 body {

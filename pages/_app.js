@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-import Navbar from '../components/Navbar';
+import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 
 import '../styles/globals.css';
