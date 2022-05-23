@@ -32,7 +32,37 @@ const SectionPrice = ({ data }) => {
                 </a>
               </Link>
             </div>
-            <div className="px-10 py-6 w-2/3 flex-1"></div>
+            <div className="w-2/3 flex-1">
+              <div className="px-10 py-6">
+                <div className="mb-6">
+                  <h3 className="text-xl text-white font-medium">
+                    {data.dataright.title}
+                  </h3>
+                  <span className="text-gh-secondary">
+                    {data.dataright.subTitle}
+                  </span>
+                </div>
+              </div>
+              <div className="px-10 py-6 flex items-center">
+                <div className="w-2/3">
+                  <h3 className="text-xl text-white font-medium">
+                    Codespaces storage
+                  </h3>
+                  <span className="text-gh-secondary">
+                    charged when inactive
+                  </span>
+                </div>
+
+                <div>
+                  <h3 className="text-xl text-white font-medium">
+                    {data.dataright.inactivePrice.price}
+                  </h3>
+                  <span className="text-gh-secondary">
+                    {data.dataright.inactivePrice.detail}
+                  </span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
