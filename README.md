@@ -1,10 +1,9 @@
-<h1>Github Codespaces Home Page Clone with Next.js and TailwindCSS</h1>
+# [Github Codespaces Home Page](https://github.com/features/codespaces) Clone with Next.js and TailwindCSS
 
 <br />
 
 <div align="center">
     <p>Quick Links</p>
-    <br />
     <a href="CONTRIBUTING.md">Contributing Guide</a> •
     <a href="https://github.com/Mridul2820/github-codespaces-clone/issues">Issues</a> •
     <a href="https://github.com/Mridul2820/github-codespaces-clone/pulls">Prerequisites</a> •
