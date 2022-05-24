@@ -33,7 +33,7 @@ const SectionPreview = ({ data }) => {
               </div>
               <div className="relative max-w-[300px] mr-[10%] -mt-[30%] z-40 self-end">
                 <img
-                  src={data.imgPort}
+                  src={data.imgMenu}
                   alt=""
                   className="shadow-overlay-card object-cover align-bottom"
                 />
@@ -45,7 +45,7 @@ const SectionPreview = ({ data }) => {
               </div>
               <div className="max-w-[373px] mt-[-20%] z-20">
                 <img
-                  src={data.imgMenu}
+                  src={data.imgPort}
                   alt=""
                   className="shadow-overlay-card object-cover align-bottom"
                 />
