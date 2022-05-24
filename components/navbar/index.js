@@ -14,7 +14,7 @@ const index = ({ headerData }) => {
             placeholder="Search or jump to…"
             type="text"
           />
-          <span className='gh-search-input-icon'>/</span>
+          <span className="gh-search-input-icon">/</span>
         </form>
         {headerData.mainlinks.map((link, index) => (
           <Link href={link.href} key={index}>
