@@ -47,6 +47,26 @@
     border-bottom: 1px solid #30363d;
   }
 
+  .gh-search-input {
+    @apply shadow-bs-card w-full px-3 placeholder:text-white h-[30px] bg-gh-tertiary align-middle rounded-md placeholder:text-sm pb-1;
+    max-width: 100%;
+    font-size: inherit;
+    border: 1px solid #57606a;
+    box-shadow: none;
+    opacity: .8;
+  }
+
+  .gh-search-input-icon {
+    @apply text-xs absolute rounded-sm;
+    border: 1px solid #57606a;
+    right: 6px;
+    color: #fff;
+    line-height: 1;
+    padding: 3px 6px 3px 6px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
   .get-started-button {
     @apply flex justify-center items-center px-7 py-5 bg-white mb-5 text-gh-primary rounded-lg font-bold gap-1;
   }
