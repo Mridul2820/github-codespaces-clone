@@ -8,26 +8,17 @@ import '../styles/globals.css';
 // SEO
 import { DefaultSeo } from 'next-seo';
 import SEO from '../next-seo.config';
+import { data } from '../data/headerfooter';
 
-function MyApp({ Component, pageProps, headerData, footerdata }) {
+function MyApp({ Component, pageProps }) {
   return (
     <>
       <DefaultSeo {...SEO} />
-      <Navbar headerData={headerData} />
+      <Navbar headerData={data.header} />
       <Component {...pageProps} />
-      <Footer footerdata={footerdata} />
+      <Footer footerdata={data.footer} />
     </>
   );
 }
-
-MyApp.getInitialProps = async () => {
-  const { API_URL } = process.env;
-  const { data } = await axios(`${API_URL}/headerfooter`);
-
-  return {
-    headerData: data.header,
-    footerdata: data.footer,
-  };
-};
 
 export default MyApp;

@@ -12,7 +12,9 @@ import SectionPrice from '../components/sections/SectionPrice';
 import SectionReview from '../components/sections/SectionReview';
 import SectionMoreDetail from '../components/sections/SectionMoreDetail';
 
-const Home = ({ data }) => {
+import { data } from '../data/homedata';
+
+const Home = () => {
   return (
     <main className="bg-gh-primary text-white overflow-x-hidden">
       <section className="pb-16">
@@ -40,17 +42,5 @@ const Home = ({ data }) => {
     </main>
   );
 };
-
-export async function getStaticProps() {
-  const { API_URL } = process.env;
-  const { data } = await axios(`${API_URL}/homedata`);
-
-  return {
-    props: {
-      data,
-    },
-    revalidate: 600,
-  };
-}
 
 export default Home;

@@ -13,7 +13,7 @@ const SectionPower = ({ data }) => {
             />
             <p className="text-gh-secondary text-xl mb-5">{data.description}</p>
             <Image
-              src="/assets/power/logos.png"
+              src={data.browserImage}
               alt="cpu"
               width={321}
               height={41}
