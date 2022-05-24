@@ -21,6 +21,8 @@ export default function handler(req, res) {
       title: 'Faster than your laptop',
       description:
         'Spin up new dev environment for any sized project in seconds with prebuilt images. GitHub’s own 35GB dev image starts in under 10 seconds. Scale your cloud VMs up to 32 cores and 64GB of RAM. And with low-latency connections across four regions, you won’t even remember it’s not your local machine.',
+      imgCore:
+        'https://github.githubassets.com/images/modules/site/codespaces/illo-cpu.png?width=788&format=webpll',
       stats: [
         {
           detail: 'CPUs up to',
@@ -40,12 +42,28 @@ export default function handler(req, res) {
       title: 'Standardized dev <br/> environments',
       description:
         'Join a new team and just start coding. Standardize environments, runtime requirements, hardware specs, extensions and editor settings in <span style="color:#fff;">.devcontainer.json</span> configuration files. Isolate dependencies between projects with containers and docker-compose.',
+
+      imgCodebg:
+        'https://github.githubassets.com/images/modules/site/codespaces/illo-env-bg.png',
+      imgCode1:
+        'https://github.githubassets.com/images/modules/site/codespaces/illo-env-ports-settings.png',
+      imgCode2:
+        'https://github.githubassets.com/images/modules/site/codespaces/illo-env-post-create.png',
+      imgCode3:
+        'https://github.githubassets.com/images/modules/site/codespaces/illo-env-extensions.png',
     },
     sectionPreview: {
       title: 'Browser preview and <br/> port forwarding',
 
       description:
         'Preview your changes in the browser with instant reloads (websocket and HMR support) and share private and public ports with your teammates.',
+
+      imgBrowser:
+        'https://github.githubassets.com/images/modules/site/codespaces/illo-hello.png',
+      imgPort:
+        'https://github.githubassets.com/images/modules/site/codespaces/illo-ports.png',
+      imgMenu:
+        'https://github.githubassets.com/images/modules/site/codespaces/illo-context-menu.png',
     },
     sectionMoreDetail: {
       title:

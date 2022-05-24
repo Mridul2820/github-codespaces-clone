@@ -23,7 +23,7 @@ const SectionPreview = ({ data }) => {
             <div className="flex flex-col">
               <div className="max-w-xl self-end mr-6">
                 <Image
-                  src="/assets/prev/illo-hello.png"
+                  src={data.imgBrowser}
                   alt="cpu"
                   width={538}
                   height={313}
@@ -32,7 +32,7 @@ const SectionPreview = ({ data }) => {
               </div>
               <div className="relative max-w-[300px] mr-[10%] -mt-[30%] z-40 self-end">
                 <img
-                  src="/assets/prev/illo-context-menu.png"
+                  src={data.imgPort}
                   alt=""
                   className="shadow-overlay-card object-cover align-bottom"
                 />
@@ -44,7 +44,7 @@ const SectionPreview = ({ data }) => {
               </div>
               <div className="max-w-[373px] mt-[-20%] z-20">
                 <img
-                  src="/assets/prev/illo-ports.png"
+                  src={data.imgMenu}
                   alt=""
                   className="shadow-overlay-card object-cover align-bottom"
                 />

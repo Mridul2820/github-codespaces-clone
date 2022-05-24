@@ -22,7 +22,7 @@ const SectionFaster = ({ data }) => {
         <div className="px-6 py-4 w-1/2 relative self-start">
           <div className="minus-margin">
             <img
-              src="/assets/faster/illo-cpu.webp"
+              src={data.imgCore}
               alt="cpu"
               width="1577"
               height="1508"

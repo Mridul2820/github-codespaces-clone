@@ -23,7 +23,7 @@ const SectionEnv = ({ data }) => {
             <div className="flex flex-col">
               <div className="max-w-xl mr-6 self-end">
                 <Image
-                  src="/assets/envs/illo-env-bg.png"
+                  src={data.imgCodebg}
                   alt="cpu"
                   width={539}
                   height={571}
@@ -32,17 +32,17 @@ const SectionEnv = ({ data }) => {
               </div>
               <div className="max-w-[492px] mt-[-76%] z-20 self-end">
                 <img
-                  src="/assets/envs/illo-env-ports-settings.png"
+                  src={data.imgCode1}
                   alt=""
                   className="shadow-overlay-card object-cover align-bottom mb-6 max-w-[473px]"
                 />
                 <img
-                  src="/assets/envs/illo-env-post-create.png"
+                  src={data.imgCode2}
                   alt=""
                   className="shadow-overlay-card object-cover align-bottom mb-6 max-w-[420px]"
                 />
                 <img
-                  src="/assets/envs/illo-env-ports-settings.png"
+                  src={data.imgCode3}
                   alt=""
                   className="shadow-overlay-card object-cover align-bottom mb-6 max-w-[473px]"
                 />
