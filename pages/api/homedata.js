@@ -73,9 +73,9 @@ export default function handler(req, res) {
 
       imgCenter:
         'https://github.githubassets.com/images/modules/site/codespaces/theme-middle.png?width=960&format=webpll',
-      imgLeft:
-        'https://github.githubassets.com/images/modules/site/codespaces/theme-left.png?width=763&format=webpll',
       imgRight:
+        'https://github.githubassets.com/images/modules/site/codespaces/theme-left.png?width=763&format=webpll',
+      imgLeft:
         'https://github.githubassets.com/images/modules/site/codespaces/theme-right.png?width=763&format=webpll',
       plugin1s: [
         {

@@ -12,9 +12,46 @@ const SectionMoreDetail = ({ data }) => {
         dangerouslySetInnerHTML={{ __html: data.description }}
       />
 
-      <div>
-        <div className='relative mx-auto'>
-          <div className="flex"></div>
+      <div className="mt-8 py-4">
+        <div className="relative mx-auto">
+          <div className="flex justify-center">
+            <div className="relative px-6">
+              <div className="absolute top-10 z-20 right-[-78%]">
+                <img
+                  src={data.imgLeft}
+                  alt=""
+                  loading="lazy"
+                  width={636}
+                  className="shadow-overlay-card"
+                />
+              </div>
+              <div className="relative z-40">
+                <img
+                  src={data.imgCenter}
+                  alt=""
+                  loading="lazy"
+                  width={800}
+                  className="shadow-overlay-card"
+                />
+              </div>
+              <div className="absolute top-10 z-10 left-[-78%]">
+                <img
+                  src={data.imgRight}
+                  alt=""
+                  loading="lazy"
+                  width={636}
+                  className="shadow-overlay-card"
+                />
+              </div>
+              <img
+                src="/assets/glow.png"
+                alt=""
+                className="absolute bg-gradient h-auto pointer-events-none z-10"
+                width="30"
+                height="22"
+              />
+            </div>
+          </div>
         </div>
         <div className="relative mt-6 z-40">
           <div className="relative flex justify-between w-full gap-4 left-20">
