@@ -26,7 +26,7 @@ const SectionPower = ({ data }) => {
             <div className="flex flex-col">
               <div className="max-w-xl">
                 <Image
-                  src="/assets/power/illo-vscode.webp"
+                  src={data.imgVscode}
                   alt="cpu"
                   width={571}
                   height={363}
@@ -35,7 +35,7 @@ const SectionPower = ({ data }) => {
               </div>{' '}
               <div className="max-w-[492px] mt-[-20%] z-20 self-end">
                 <img
-                  src="/assets/power/illo-terminal.webp"
+                  src={data.imgTerminal}
                   alt=""
                   className="shadow-overlay-card object-cover align-bottom"
                 />

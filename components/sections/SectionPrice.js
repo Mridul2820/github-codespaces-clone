@@ -62,7 +62,10 @@ const SectionPrice = ({ data }) => {
 
                   <tbody>
                     {data.dataright.prices.map((item, index) => (
-                      <tr className="gh-border-bottom mb-4 align-top" key={index}>
+                      <tr
+                        className="gh-border-bottom mb-4 align-top"
+                        key={index}
+                      >
                         <td className="py-4 text-white">{item.core}</td>
                         <td className="py-4 text-white">{item.ram}</td>
                         <td className="py-4 text-white">

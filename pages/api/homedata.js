@@ -11,6 +11,11 @@ export default function handler(req, res) {
       title: 'The full power of <br/> Visual Studio Code',
       description:
         'Use the full power of Visual Studio Code, including the editor, terminal, debugger, version control, settings sync, and the entire ecosystem of extensions. Work in the browser or hand off to your desktop.',
+
+      imgVscode:
+        'https://github.githubassets.com/images/modules/site/codespaces/illo-vscode.png?width=685&format=webpll',
+      imgTerminal:
+        'https://github.githubassets.com/images/modules/site/codespaces/illo-terminal.png?width=785&format=webpll',
     },
     sectionFaster: {
       title: 'Faster than your laptop',
@@ -47,6 +52,90 @@ export default function handler(req, res) {
         'Tabs, spaces, Monokai, Solarized, <br/> light, dark, Prettier, Beautify…',
       description:
         'Every nerdy detail only you care about, configured just right, backed by your <br/> own dotfiles repository.',
+
+      imgCenter:
+        'https://github.githubassets.com/images/modules/site/codespaces/theme-middle.png?width=960&format=webpll',
+      imgLeft:
+        'https://github.githubassets.com/images/modules/site/codespaces/theme-left.png?width=763&format=webpll',
+      imgRight:
+        'https://github.githubassets.com/images/modules/site/codespaces/theme-right.png?width=763&format=webpll',
+      plugin1s: [
+        {
+          name: 'Python',
+          image:
+            'https://github.githubassets.com/images/modules/site/codespaces/extensions/python.png',
+          detail: 'Rich support for Python.',
+        },
+        {
+          name: 'C/C++',
+          image:
+            'https://github.githubassets.com/images/modules/site/codespaces/extensions/c-c.png',
+          detail: 'Adds language support for C/C++',
+        },
+        {
+          name: 'Jupyter',
+          image:
+            'https://github.githubassets.com/images/modules/site/codespaces/extensions/jupyter.png',
+          detail: 'provides basic notebook support for language kernels',
+        },
+        {
+          name: 'ES Lint',
+          image:
+            'https://github.githubassets.com/images/modules/site/codespaces/extensions/es-lint.png',
+          detail: 'Integrates ESLint JavaScript into VS Code',
+        },
+        {
+          name: 'Prettier',
+          image:
+            'https://github.githubassets.com/images/modules/site/codespaces/extensions/prettier.png',
+          detail: 'An opinionated code formatter for consistent style',
+        },
+        {
+          name: 'Live Server',
+          image:
+            'https://github.githubassets.com/images/modules/site/codespaces/extensions/live-server.png',
+          detail: 'Live reload feature for static & dynamic pages',
+        },
+      ],
+
+      plugin2s: [
+        {
+          name: 'Material Icon Theme',
+          image:
+            'https://github.githubassets.com/images/modules/site/codespaces/extensions/material-icon-theme.png',
+          detail: 'Material Design Icons for Visual Studio Code',
+        },
+        {
+          name: 'C#',
+          image:
+            'https://github.githubassets.com/images/modules/site/codespaces/extensions/c.png',
+          detail: 'C# editing support for Visual Studio Code',
+        },
+        {
+          name: 'Vetur',
+          image:
+            'https://github.githubassets.com/images/modules/site/codespaces/extensions/vetur.png',
+          detail: 'Vue tooling for VS Code',
+        },
+        {
+          name: 'GitHub Copilot',
+          image:
+            'https://github.githubassets.com/images/modules/site/codespaces/extensions/github-copilot.png',
+          detail: 'AI pair programmer trained on billions of lines of code',
+        },
+        {
+          name: 'GitLens',
+          image:
+            'https://github.githubassets.com/images/modules/site/codespaces/extensions/gitlens.png',
+          detail: 'Supercharge the Git capabilities built into VS Code',
+        },
+        {
+          name: 'Debugger for Java',
+          image:
+            'https://github.githubassets.com/images/modules/site/codespaces/extensions/debugger-for-java.png',
+          detail: 'A lightweight Java debugger for Visual Studio Code',
+        },
+      ],
     },
     sectionReview: {
       title: 'GitHub builds <br/> with Codespaces',

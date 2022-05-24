@@ -8,7 +8,7 @@ module.exports = {
   publicRuntimeConfig: {},
   images: {
     formats: ['image/avif', 'image/webp'],
-    domains: ['localhost', 'res.cloudinary.com'],
+    domains: ['localhost', 'res.cloudinary.com', 'github.githubassets.com'],
   },
 
   webpack: (config) => {
