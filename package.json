@@ -18,13 +18,11 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-icons": "^4.3.1",
-    "styled-components": "^5.3.5",
     "tw-elements": "^1.0.0-alpha12",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.7",
-    "babel-plugin-styled-components": "^2.0.7",
     "eslint": "^8.14.0",
     "eslint-config-next": "^12.1.6",
     "eslint-config-prettier": "^8.5.0",
