@@ -3,7 +3,6 @@ import Link from 'next/link';
 import { BsGithub } from 'react-icons/bs';
 
 const index = ({ headerData }) => {
-  console.log(headerData);
   return (
     <div className="flex py-4 px-8 bg-gh-primary">
       <div className="flex items-center gap-4">
