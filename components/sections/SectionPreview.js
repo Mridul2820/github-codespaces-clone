@@ -38,7 +38,7 @@ const SectionPreview = ({ data }) => {
                   className="shadow-overlay-card object-cover align-bottom"
                 />
                 <img
-                  src="/assets/prev/illo-cursor.png"
+                  src="/assets/illo-cursor.png"
                   alt=""
                   className="absolute object-cover align-bottom right-[20%] bottom-[20%] w-8"
                 />

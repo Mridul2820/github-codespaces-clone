@@ -76,7 +76,7 @@ const SectionEditor = () => {
             className="relative rounded-md shadow-bs-card z-50 after:shadow-overlay-card-after"
           />
           <img
-            src="/assets/editor/glow.png"
+            src="/assets/glow.png"
             alt=""
             className="absolute bg-gradient h-auto pointer-events-none z-10"
             width="30"
