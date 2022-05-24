@@ -9,7 +9,7 @@ const SectionReview = ({ data }) => {
     <div className="mt-16 mb-20 mx-auto max-w-7xl pb-12">
       <div className="-mx-6">
         <h3
-          className="pb-4 px-4 mx-auto mb-2 text-6xl font-extrabold text-center"
+          className="pb-4 px-4 mx-auto mb-2 text-5xl font-extrabold text-center"
           dangerouslySetInnerHTML={{ __html: data.title }}
         />
         <div className="flex justify-center">

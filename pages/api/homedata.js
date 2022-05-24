@@ -156,7 +156,7 @@ export default function handler(req, res) {
       ],
     },
     sectionReview: {
-      title: 'GitHub builds <br/> with Codespaces',
+      title: 'GitHub builds with Codespaces',
       urlText: 'Learn how GitHub builds GitHub with Codespaces',
       url: '/',
       reviews: [
