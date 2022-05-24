@@ -28,6 +28,7 @@ const SectionPreview = ({ data }) => {
                   width={538}
                   height={313}
                   className="shadow-overlay-card"
+                  priority={true}
                 />
               </div>
               <div className="relative max-w-[300px] mr-[10%] -mt-[30%] z-40 self-end">

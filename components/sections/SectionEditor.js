@@ -49,6 +49,7 @@ const SectionEditor = () => {
               width={438}
               height={29}
               className="block"
+              priority={true}
             />
           </div>
           <div className="p-2 md:p-6 shadow-overlay-card after:shadow-overlay-card-after w-7/12">
@@ -58,6 +59,7 @@ const SectionEditor = () => {
               width={372}
               height={272}
               className="block"
+              priority={true}
             />
           </div>
         </div>
@@ -100,6 +102,7 @@ const SectionEditor = () => {
               width={247}
               height={181}
               className="block"
+              priority={true}
             />
           </div>
           <div className="flex gap-4">
@@ -110,6 +113,7 @@ const SectionEditor = () => {
                 width={32}
                 height={32}
                 className="block"
+                priority={true}
               />
             </div>
             <div className="p-2 md:p-6 shadow-overlay-card after:shadow-overlay-card-after w-7/12">
@@ -119,6 +123,7 @@ const SectionEditor = () => {
                 width={32}
                 height={32}
                 className="block"
+                priority={true}
               />
             </div>
             <div className="p-2 md:p-6 shadow-overlay-card after:shadow-overlay-card-after w-7/12">
@@ -128,6 +133,7 @@ const SectionEditor = () => {
                 width={32}
                 height={32}
                 className="block"
+                priority={true}
               />
             </div>
           </div>
@@ -143,6 +149,7 @@ const SectionEditor = () => {
               width={56}
               height={56}
               className="block"
+              priority={true}
             />
           </div>
         </div>
@@ -155,6 +162,7 @@ const SectionEditor = () => {
                 width={494}
                 height={18}
                 className="block"
+                priority={true}
               />
             </div>
             <div className="p-2 md:p-6 shadow-overlay-card after:shadow-overlay-card-after">
@@ -164,6 +172,7 @@ const SectionEditor = () => {
                 width={378}
                 height={18}
                 className="block"
+                priority={true}
               />
             </div>
           </div>
@@ -175,6 +184,7 @@ const SectionEditor = () => {
                 width={209}
                 height={75}
                 className="block"
+                priority={true}
               />
             </div>
             <div className="pr-16 py-2 md:py-6 pl-2 md:pl-6 shadow-overlay-card after:shadow-overlay-card-after flex-1">
@@ -184,6 +194,7 @@ const SectionEditor = () => {
                 width={252}
                 height={105}
                 className="block"
+                priority={true}
               />
             </div>
             <div className="pb-[7%] shadow-overlay-card after:shadow-overlay-card-after w-1/6" />
@@ -194,6 +205,7 @@ const SectionEditor = () => {
                 width={89}
                 height={54}
                 className="block"
+                priority={true}
               />
             </div>
           </div>
@@ -206,6 +218,7 @@ const SectionEditor = () => {
               width={232}
               height={166}
               className="block"
+              priority={true}
             />
           </div>
         </div>

@@ -28,6 +28,7 @@ const SectionEnv = ({ data }) => {
                   width={539}
                   height={571}
                   className="shadow-overlay-card"
+                  priority={true}
                 />
               </div>
               <div className="max-w-[492px] mt-[-76%] z-20 self-end">

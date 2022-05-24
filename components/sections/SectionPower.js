@@ -18,6 +18,7 @@ const SectionPower = ({ data }) => {
               width={321}
               height={41}
               className="block"
+              priority={true}
             />
           </div>
         </div>
@@ -31,6 +32,7 @@ const SectionPower = ({ data }) => {
                   width={571}
                   height={363}
                   className="shadow-overlay-card"
+                  priority={true}
                 />
               </div>{' '}
               <div className="max-w-[492px] mt-[-20%] z-20 self-end">
