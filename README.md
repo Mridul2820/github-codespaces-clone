@@ -4,7 +4,7 @@
 
 <br />
 
-## Packages Installed 🛠
+## Tech Stack 👾 🛠
 
 - **[Next JS](https://nextjs.org/)**
 - **[React](https://reactjs.org/)**
@@ -14,3 +14,11 @@
 - [Lodash](https://lodash.com/)
 
 ## Screenshots 📷
+
+## Demo 🌍
+
+## Prerequisites '✔
+
+## Run Locally 🤠
+
+## How to contribute? 💻
