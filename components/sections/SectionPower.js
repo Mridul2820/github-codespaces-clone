@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { useInView } from 'react-intersection-observer';
 import Image from 'next/image';
 
@@ -8,11 +8,12 @@ const SectionPower = ({ data }) => {
   const { ref: powerImg2, inView: powerImg2Anim } = useInView();
 
   return (
-    <div className="mt-16 mx-auto max-w-7xl" ref={powerText}>
+    <div className="mt-16 mx-auto max-w-7xl">
       <div className="-mx-6 pb-12 flex items-center">
         <div className="px-6 py-4 w-1/2">
           <div className="pr-5">
             <div
+              ref={powerText}
               className={`relative duration-300 ${
                 powerTextAnim ? 'slide-left-after' : 'slide-left-before'
               }`}

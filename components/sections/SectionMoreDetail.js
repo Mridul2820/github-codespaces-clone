@@ -1,6 +1,9 @@
 import React from 'react';
+import { useInView } from 'react-intersection-observer';
 
 const SectionMoreDetail = ({ data }) => {
+  const { ref: moreImg, inView: moreImgAnim } = useInView();
+
   return (
     <div className="py-24 pb-6 md:pb-32 px-6 flex flex-col items-center text-center">
       <h1
@@ -22,10 +25,12 @@ const SectionMoreDetail = ({ data }) => {
                   alt=""
                   loading="lazy"
                   width={636}
-                  className="shadow-overlay-card"
+                  className={`shadow-overlay-card ${
+                    moreImgAnim ? 'slide-left-after' : 'slide-left-before'
+                  }`}
                 />
               </div>
-              <div className="relative z-40">
+              <div className="relative z-40" ref={moreImg}>
                 <img
                   src={data.imgCenter}
                   alt=""
@@ -40,7 +45,9 @@ const SectionMoreDetail = ({ data }) => {
                   alt=""
                   loading="lazy"
                   width={636}
-                  className="shadow-overlay-card"
+                  className={`shadow-overlay-card ${
+                    moreImgAnim ? 'slide-right-after' : 'slide-right-before'
+                  }`}
                 />
               </div>
               <img
