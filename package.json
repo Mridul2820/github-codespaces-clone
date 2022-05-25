@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@svgr/webpack": "^6.2.1",
-    "axios": "^0.27.2",
     "dotenv": "^10.0.0",
     "framer-motion": "^6.3.3",
     "lodash": "^4.17.21",
