@@ -1,6 +1,10 @@
 import React from 'react';
+import { useInView } from 'react-intersection-observer';
 
 const SectionMoreDetail = ({ data }) => {
+  const { ref: moreImg, inView: moreImgAnim } = useInView();
+  const { ref: morePlugin, inView: morePluginAnim } = useInView();
+
   return (
     <div className="py-24 pb-6 md:pb-32 px-6 flex flex-col items-center text-center">
       <h1
@@ -22,10 +26,12 @@ const SectionMoreDetail = ({ data }) => {
                   alt=""
                   loading="lazy"
                   width={636}
-                  className="shadow-overlay-card"
+                  className={`shadow-overlay-card ${
+                    moreImgAnim ? 'slide-left-after' : 'slide-left-before'
+                  }`}
                 />
               </div>
-              <div className="relative z-40">
+              <div className="relative z-40" ref={moreImg}>
                 <img
                   src={data.imgCenter}
                   alt=""
@@ -40,7 +46,9 @@ const SectionMoreDetail = ({ data }) => {
                   alt=""
                   loading="lazy"
                   width={636}
-                  className="shadow-overlay-card"
+                  className={`shadow-overlay-card ${
+                    moreImgAnim ? 'slide-right-after' : 'slide-right-before'
+                  }`}
                 />
               </div>
               <img
@@ -53,23 +61,27 @@ const SectionMoreDetail = ({ data }) => {
             </div>
           </div>
         </div>
-        <div className="relative mt-6 z-40">
+        <div className="relative mt-6 z-40" ref={morePlugin}>
           <div className="relative flex justify-between w-full gap-4 left-20">
             {data.plugin1s.map((plugin, index) => (
               <div
                 key={index}
-                className="flex items-center gap-4 p-4 shadow-overlay-card mb-4 w-[260px] h-[100px]"
+                className={`relative ${
+                  morePluginAnim ? 'slide-right-after' : 'slide-right-before'
+                }`}
               >
-                <img
-                  className="w-10 h-10"
-                  src={plugin.image}
-                  alt={plugin.name}
-                />
-                <div className="flex flex-col text-left">
-                  <p className="text-white text-sm">{plugin.name}</p>
-                  <span className="text-gh-secondary text-xs">
-                    {plugin.detail}
-                  </span>
+                <div className="flex items-center gap-4 p-4 shadow-overlay-card mb-4 w-[260px] h-[100px]">
+                  <img
+                    className="w-10 h-10"
+                    src={plugin.image}
+                    alt={plugin.name}
+                  />
+                  <div className="flex flex-col text-left">
+                    <p className="text-white text-sm">{plugin.name}</p>
+                    <span className="text-gh-secondary text-xs">
+                      {plugin.detail}
+                    </span>
+                  </div>
                 </div>
               </div>
             ))}
@@ -78,18 +90,22 @@ const SectionMoreDetail = ({ data }) => {
             {data.plugin2s.map((plugin, index) => (
               <div
                 key={index}
-                className="flex items-center gap-4 p-4 shadow-overlay-card mb-4 w-[260px] h-[100px]"
+                className={`relative ${
+                  morePluginAnim ? 'slide-right-after' : 'slide-right-before'
+                }`}
               >
-                <img
-                  className="w-10 h-10"
-                  src={plugin.image}
-                  alt={plugin.name}
-                />
-                <div className="flex flex-col text-left">
-                  <p className="text-white text-sm">{plugin.name}</p>
-                  <span className="text-gh-secondary text-xs">
-                    {plugin.detail}
-                  </span>
+                <div className="flex items-center gap-4 p-4 shadow-overlay-card mb-4 w-[260px] h-[100px]">
+                  <img
+                    className="w-10 h-10"
+                    src={plugin.image}
+                    alt={plugin.name}
+                  />
+                  <div className="flex flex-col text-left">
+                    <p className="text-white text-sm">{plugin.name}</p>
+                    <span className="text-gh-secondary text-xs">
+                      {plugin.detail}
+                    </span>
+                  </div>
                 </div>
               </div>
             ))}

@@ -24,32 +24,38 @@
 - [Next SEO](https://github.com/garmeeh/next-seo)
 
 ## Demo 🌍
+
 This app is Deployed to Vercel
 <br />
 
 **[View Demo](http://github-codespaces-clone.vercel.app/)**
 
-
 ## Run Locally 🤠
+
 1. Clone the respository locally
+
 ```
 git clone https://github.com/Mridul2820/github-codespaces-clone.git
 ```
 
 2. Install the `node_modules`
+
 ```
 npm install
 #or
 npm i
 ```
+
 3. Start the Server
+
 ```
 npm run dev
 ```
 
-
 ## How to contribute? 💻
+
 **<a href="CONTRIBUTING.md">Contributing Guide</a>**
 
 ## Full Screenshot 📷
+
 <img src="/public/full-screenshot.png" />

@@ -81,6 +81,23 @@
   .slide-border-bottom:hover::after {
     @apply w-full;
   }
+
+  /* Scroll Animations */
+  .slide-left-before {
+    @apply opacity-0 left-10 transition-all duration-500 ease-in-out;
+  }
+
+  .slide-left-after {
+    @apply opacity-100 left-0 transition-all duration-500 ease-in-out;
+  }
+
+  .slide-right-before {
+    @apply opacity-0 right-10 transition-all duration-500 ease-in-out;
+  }
+
+  .slide-right-after {
+    @apply opacity-100 right-0 transition-all duration-500 ease-in-out;
+  }
 }
 
 body {

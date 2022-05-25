@@ -1,5 +1,4 @@
 import React from 'react';
-import axios from 'axios';
 
 import SectionEditor from '../components/sections/SectionEditor';
 import SectionEnv from '../components/sections/SectionEnv';
