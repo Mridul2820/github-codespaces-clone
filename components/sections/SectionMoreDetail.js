@@ -65,14 +65,12 @@ const SectionMoreDetail = ({ data }) => {
           <div className="relative flex justify-between w-full gap-4 left-20">
             {data.plugin1s.map((plugin, index) => (
               <div
+                key={index}
                 className={`relative ${
                   morePluginAnim ? 'slide-right-after' : 'slide-right-before'
                 }`}
               >
-                <div
-                  key={index}
-                  className="flex items-center gap-4 p-4 shadow-overlay-card mb-4 w-[260px] h-[100px]"
-                >
+                <div className="flex items-center gap-4 p-4 shadow-overlay-card mb-4 w-[260px] h-[100px]">
                   <img
                     className="w-10 h-10"
                     src={plugin.image}
@@ -91,14 +89,12 @@ const SectionMoreDetail = ({ data }) => {
           <div className="relative -right-4 flex justify-between w-full gap-4">
             {data.plugin2s.map((plugin, index) => (
               <div
+                key={index}
                 className={`relative ${
                   morePluginAnim ? 'slide-right-after' : 'slide-right-before'
                 }`}
               >
-                <div
-                  key={index}
-                  className="flex items-center gap-4 p-4 shadow-overlay-card mb-4 w-[260px] h-[100px]"
-                >
+                <div className="flex items-center gap-4 p-4 shadow-overlay-card mb-4 w-[260px] h-[100px]">
                   <img
                     className="w-10 h-10"
                     src={plugin.image}
