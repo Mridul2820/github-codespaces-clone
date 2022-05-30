@@ -1,4 +1,4 @@
-# Contributing toGithub Codespaces Clone 💥
+# Contributing to Github Codespaces Clone 💥
 
 **Pull Request Guidelines**
 
