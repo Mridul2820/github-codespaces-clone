@@ -6,7 +6,6 @@
     <p>Quick Links</p>
     <a href="CONTRIBUTING.md">Contributing Guide</a> •
     <a href="https://github.com/Mridul2820/github-codespaces-clone/issues">Issues</a> •
-    <a href="https://github.com/Mridul2820/github-codespaces-clone/pulls">Prerequisites</a> •
     <a href="LICENSE">LICENSE</a>
     <br />
     <a href="#tech-stack--">Tech Stack</a> •
